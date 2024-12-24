@@ -1,17 +1,17 @@
 {
-  "name": "discordbot-v2",
+  "name": "streamify-discord-bot",
   "version": "1.0.0",
   "description": "A Discord bot for managing streaming roles in servers.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: No Test Specified!\" && exit 1",
     "guild": "node scripts/deploy-specific-commands.js",
     "global": "node scripts/deploy-commands.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tirasmisu/discordbot-v2.git"
+    "url": "git+https://github.com/tirasmisu/Streamify-Discord-Bot.git"
   },
   "keywords": [
     "discord",
@@ -21,17 +21,17 @@
   "author": "buff",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tirasmisu/discordbot-v2/issues"
+    "url": "https://github.com/tirasmisu/Streamify-Discord-Bot/issues"
   },
-  "homepage": "https://github.com/tirasmisu/discordbot-v2#readme",
+  "homepage": "https://github.com/tirasmisu/Streamify-Discord-Bot#readme",
   "engines": {
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.4.1"
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^9.17.0"
   }
 }
